@@ -1,0 +1,53 @@
+@media only screen and (max-device-width : 1024px) {
+    div.box, div.info {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width : 1025px) {
+    div.box {
+        width: 300px;
+    }
+}
+
+div.box {
+    display: block;
+    margin: 200px auto;
+}
+
+img.status {
+    display: block;
+    margin: 15px auto;
+    width: 20%;
+    height: 20%;
+}
+
+input[type=text] {
+    display: block;
+    width: 75px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 75px;
+    margin: 15px auto;
+}
+
+span.response-key {
+    font-weight: bolder;
+    display: block;
+    width: 75%;
+    margin: 10px auto 5px auto;
+}
+
+span.response-value {
+    display: block;
+    width: 75%;
+    margin: 10px auto 5px auto;
+}
+
+.hide {
+    display: none;
+}
